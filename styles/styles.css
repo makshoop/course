@@ -16,6 +16,18 @@ font-family: 'Roboto', sans-serif;
     box-shadow: 2px 2px 8px black;
 }
 
+.info {
+    display: flex;
+}
+
+.text {
+    margin-left: 40px;
+}
+
+.text h4 {
+margin-bottom: 10px;
+}
+
 .info p {
     color: #86898f;
     margin: 0;
@@ -24,4 +36,101 @@ font-family: 'Roboto', sans-serif;
     /* text-transform: uppercase;
     letter-spacing: 5px;
     word-spacing: 42px; */
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.bg-yellow {
+    background: #fff9dc ;
+}
+
+.bg-orange {
+    background: #ffc8a1 ;
+}
+
+.bg-red {
+    background: rgb(255, 154, 154);
+}
+
+.bg-blue {
+background: rgb(236, 216, 254);
+}
+
+.card {
+    padding: 15px 20px;
+    background: ;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    /* color: #86898f; */
+    margin-bottom: 12px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+color: #86898f;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #cccc;
+    color: #0000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    /* background: #0f141e; */
+    /* padding: 15px 20px; */
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }

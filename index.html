@@ -8,89 +8,91 @@
     <link rel="stylesheet" href="../обучение\styles\styles.css">
 </head>
 <body>
-    <div class="info">
-        <img class="avatar" src="../обучение\images&icons\avatar.jpg" alt="Максим Кащеев Фото">      
-        <h1>Максим Кащеев</h1>
-        <p>Я из г. Рязань, мне 23 года</p>
-        <p>Это мой первый проект на пути к <strong> Frontend-разработчику</strong></p>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="../обучение\images&icons\avatar.jpg" alt="Максим Кащеев Фото">      
+            
+            <div class="text">
+                <h1>Максим Кащеев</h1>
+                <p>Я из г. Рязань, мне 23 года</p>
+                <p>Это мой первый проект на пути к <strong> Frontend-разработчику</strong></p>
+            </div>
+        
     </div>
-
-    <hr>
-
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год работы</th>
-        </tr>
-        <tr>
-            <td>Апельсин</td>
-            <td>Менеджер по продажам</td>
-            <td>2021-  </td>
-        </tr>
-        <tr>
-            <td>Эльбрус</td>
-            <td>Кладовщик</td>
-            <td>2020-2021</td>
-        </tr>
-        <tr>
-            <td>Shop&Show</td>
-            <td>Обработка входящих вызовов</td>
-            <td>2019-2019</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>Мои хобби</h2>
-    <ul>
-        <li>Чтение различной литературы</li>
-        <li>Путешествия</li>
-        <li>Рукоделие/Производство различных вещей</li>
-    </ul>
-
-    <hr>
-    
-    <h2>
-        <a href="materials.html">Материалы, которые были использованы для создания этой страницы</a>
-    </h2>
-    
-    <hr>
-
-    <h2>Вопросы по странице</h2>
-
-    <form>
-        <label for="name">Ваше Имя</label>
-        <input type="text" id="name" placeholder="Введите имя..">
         
-        <br>
+        <div class="card bg-yellow">
+            <h4>Опыт работы</h4>
+            <table class="table">
+                <tr>
+                    <td>Апельсин</td>
+                    <td>Менеджер по продажам</td>
+                    <td>2021-  </td>
+                </tr>
+                <tr>
+                    <td>Эльбрус</td>
+                    <td>Кладовщик</td>
+                    <td>2020-2021</td>
+                </tr>
+                <tr>
+                    <td>Shop&Show</td>
+                    <td>Обработка входящих вызовов</td>
+                <td>2019-2019</td>
+                </tr>
+            </table>
+        </div>
 
-        <label for="email">Ваш eMail</label>
-        <input type="email" id="email" placeholder="Введите Ваш eMail">
+        <div class="card bg-red">
+            <h4>Мои хобби</h4>
+            <ol class="list">
+                <li>Чтение различной литературы</li>
+                <li>Путешествия</li>
+                <li>Рукоделие/Производство различных вещей</li>
+            </ol>
+        </div> 
         
-        <br>
+        <div class="card bg-orange">
+            <h2>
+                <a href="materials.html">Материалы, которые были использованы для создания этой страницы</a>
+            </h2>
+        </div>
+        <h2>Вопросы по странице</h2>
 
-        <label for="text">Ваш вопрос:</label>
-        <textarea id="text" cols="15" rows="3"></textarea>
-        <input type="submit" value="Отправить">
-    </form>
-    
-    <hr>
+        <form>
+            <div class="row">    
+                <div class="form-group">
+                    <label for="name">Ваше Имя</label>
+                    <input type="text" id="name" placeholder="Введите имя..">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш eMail</label>
+                    <input type="email" id="email" placeholder="Введите Ваш eMail">
+                </div>
+            </div>       
+            <div class="form-group">
+                <label for="text">Ваш вопрос:</label>
+                <textarea id="text" cols="15" rows="3"></textarea>
+            </div>    
+            <div class="btn">
+                <input type="submit" value="Отправить">
+            </div>
+        </form>
 
+        <div class="card bg-blue">
+            <footer>
+                <address>
+                Для связи с автором 
+                <a href="https://t.me/piupauoyoy">Telegram</a>
+                <br>
+                Если нашли ошибки, напишите на мою 
+                <a href="https://makshoope@gmail.com">почту</a>
+                <br>
+                Для полного ознакомления с автором
+                <a href="https://onlyfans.com/u243185839">OnlyFans</a>
+                <br>
+                </address>
+                <p>© 2022 Maksim Kashcheev</p>
+            </footer>
+        </div>
+    </div>
 </body>
-<footer>
-    <address>
-       Для связи с автором 
-       <a href="https://t.me/piupauoyoy">Telegram</a>
-       <br>
-       Если нашли ошибки, напишите на мою 
-       <a href="https://makshoope@gmail.com">почту</a>
-       <br>
-       Для полного ознакомления с автором
-       <a href="https://onlyfans.com/u243185839">OnlyFans</a>
-       <br>
-    </address>
-    <p>© 2022 Maksim Kashcheev</p>
- </footer>
 </html>
